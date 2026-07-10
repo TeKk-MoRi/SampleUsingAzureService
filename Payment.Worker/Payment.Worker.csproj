@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-Payment.Worker-cac7fa8e-5975-413b-94eb-f4ea9c1d4533</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Azure.Identity" Version="1.21.0" />
+        <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.20.1" />
+        <PackageReference Include="Microsoft.ApplicationInsights.WorkerService" Version="3.1.2" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.8" />
+    </ItemGroup>
+</Project>

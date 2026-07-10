@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingAsure", "UsingAsure\UsingAsure.csproj", "{57469697-CFB0-43D5-AB6E-ABFF6E97231B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Worker", "Payment.Worker\Payment.Worker.csproj", "{4260E1FF-39C7-4CAB-AF01-C7BA9D5ECDCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57469697-CFB0-43D5-AB6E-ABFF6E97231B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57469697-CFB0-43D5-AB6E-ABFF6E97231B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57469697-CFB0-43D5-AB6E-ABFF6E97231B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57469697-CFB0-43D5-AB6E-ABFF6E97231B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4260E1FF-39C7-4CAB-AF01-C7BA9D5ECDCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4260E1FF-39C7-4CAB-AF01-C7BA9D5ECDCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4260E1FF-39C7-4CAB-AF01-C7BA9D5ECDCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4260E1FF-39C7-4CAB-AF01-C7BA9D5ECDCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

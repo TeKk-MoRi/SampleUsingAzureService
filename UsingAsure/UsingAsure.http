@@ -1,0 +1,6 @@
+@UsingAsure_HostAddress = http://localhost:5227
+
+GET {{UsingAsure_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
