@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using UsingAsure.Data;
+using Orders.Api.Data;
 
 #nullable disable
 
-namespace UsingAsure.Migrations
+namespace Orders.Api.Migrations
 {
     [DbContext(typeof(OrdersDbContext))]
     partial class OrdersDbContextModelSnapshot : ModelSnapshot
@@ -22,7 +22,7 @@ namespace UsingAsure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("UsingAsure.Models.Order", b =>
+            modelBuilder.Entity("Orders.Api.Models.Order", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()

@@ -1,4 +1,4 @@
-namespace UsingAsure.Models;
+namespace Orders.Api.Models;
 
 public sealed class Order
 {

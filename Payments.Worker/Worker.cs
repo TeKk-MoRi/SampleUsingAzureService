@@ -1,6 +1,6 @@
 using Azure.Messaging.ServiceBus;
 
-namespace Payment.Worker;
+namespace Payments.Worker;
 
 public sealed class Worker : BackgroundService
 {
@@ -48,7 +48,7 @@ public sealed class Worker : BackgroundService
 
         await _processor.StartProcessingAsync(stoppingToken);
 
-        _logger.LogInformation("Payment.Worker started listening to queue {QueueName}", queueName);
+        _logger.LogInformation("Payments.Worker started listening to queue {QueueName}", queueName);
 
         while (!stoppingToken.IsCancellationRequested)
         {

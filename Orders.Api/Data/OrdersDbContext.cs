@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using UsingAsure.Models;
+using Orders.Api.Models;
 
-namespace UsingAsure.Data;
+namespace Orders.Api.Data;
 
 public sealed class OrdersDbContext : DbContext
 {

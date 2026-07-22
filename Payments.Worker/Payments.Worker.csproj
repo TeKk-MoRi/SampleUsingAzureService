@@ -4,7 +4,7 @@
         <TargetFramework>net10.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <UserSecretsId>dotnet-Payment.Worker-cac7fa8e-5975-413b-94eb-f4ea9c1d4533</UserSecretsId>
+        <UserSecretsId>dotnet-Payments.Worker-cac7fa8e-5975-413b-94eb-f4ea9c1d4533</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>

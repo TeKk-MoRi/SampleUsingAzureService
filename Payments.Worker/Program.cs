@@ -1,4 +1,4 @@
-using Payment.Worker;
+using Payments.Worker;
 
 var builder = Host.CreateApplicationBuilder(args);
 builder.Services.AddHostedService<Worker>();

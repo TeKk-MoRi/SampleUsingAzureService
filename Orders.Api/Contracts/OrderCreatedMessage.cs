@@ -1,4 +1,4 @@
-namespace UsingAsure.Contracts;
+namespace Orders.Api.Contracts;
 
 public sealed record OrderCreatedMessage(
     Guid OrderId,

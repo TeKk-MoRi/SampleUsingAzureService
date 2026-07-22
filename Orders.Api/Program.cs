@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-using UsingAsure.Contracts;
-using UsingAsure.Data;
+using Orders.Api.Contracts;
+using Orders.Api.Data;
 using System.Text.Json;
 using Azure.Messaging.ServiceBus;
-using UsingAsure.Models;
+using Orders.Api.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,7 +41,7 @@ app.MapGet("/health", () =>
     return Results.Ok(new
     {
         status = "Healthy",
-        service = "UsingAsure API",
+        service = "Orders.Api API",
         time = DateTime.UtcNow
     });
 });
